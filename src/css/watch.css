@@ -1,0 +1,105 @@
+  .watch {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      background-color: #D4D9E1;
+      border-radius: 50%;
+      margin: 20px auto;
+      border: 4px solid #283F60;
+  }
+
+  .watch-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+  }
+
+  .watch-btn {
+      width: 15px;
+      height: 30px;
+      position: absolute;
+      border: none;
+      cursor: pointer;
+      background-color: #0B1C34;
+  }
+
+  .watch-screen {
+      position: absolute;
+      height: 55px;
+      width: 140px;
+      left: 12%;
+      top: 35%;
+      text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 10px;
+  }
+
+  .watch-screen-on {
+    background-color: #283F60;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .watch-screen-off {
+    color: #283F60;
+    background-color: #fff;
+    border: 2px solid #283F60;
+  }
+
+  #mode-btn {
+      right: 0;
+      top: 15%;
+      transform: rotate(-30deg);
+  }
+
+  #increase-btn {
+      bottom: 15%;
+      right: 1%;
+      transform: rotate(30deg);
+  }
+
+
+  #light-btn {
+      bottom: 10%;
+      left: 3%;
+      transform: rotate(-35deg);
+  }
+
+  #reset-btn {
+    top: -12%;
+    transform: rotate(92deg);
+  }
+
+  #display-btn {
+    top: 12%;
+    left: 3%;
+    transform: rotate(35deg);
+  }
+
+  .hourMinute {
+      font-weight: bolder;
+      font-size: 20px;
+  }
+
+  .second {
+      font-size: 17px;
+  }
+
+  @keyframes blink {
+      0% {
+          opacity: 1;
+      }
+
+      50% {
+          opacity: 0;
+      }
+
+      100% {
+          opacity: 1;
+      }
+  }
+
+  .blinking {
+      animation: blink 1s infinite;
+  }

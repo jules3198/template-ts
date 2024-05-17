@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    background-color: yellow;
+    height: fit-content;
+}
+
+.watch-parent-container {
+    width: 23%;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #D4D9E1;
+    border-radius: 5px;
+    float: left;
+}
